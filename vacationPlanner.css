@@ -1,0 +1,56 @@
+html{
+    height: 100%;
+}
+body{
+    background: url("/Users/user/vacationPlanner/backgrounds/rawche.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 10px auto;
+}
+
+form label{
+    display: inline;
+}
+body h1{
+    color: red;
+}
+
+strong{
+    color: yellow;
+}
+
+section{
+    color: green;
+    border: red 3px dotted;
+    width: 50%;
+    margin: 5px auto;
+    color: #f5f5f5;
+    clear: right;
+    overflow: auto;
+}
+
+section h2{
+    color: white;
+}
+
+.error{
+color: red;
+}
+
+input{
+    text-align: center;
+}
+
+.next{
+    background-color: white;
+    color: green;
+    border: 3px dotted;
+    width: 10%;
+    float: right;
+    margin: 5px 10px;
+}
