@@ -74,6 +74,18 @@ function calculateBudget(){
     
     exchange10Msg.innerHTML = " You will need " + usd10 + " Lebanese Lira to by an item that costs 10$";
     exchange500Msg.innerHTML = " You will need " + usd500 + " Lebanese Lira to by an item that costs 500$";
+}
 
 
+// Changing bacground Image
+var images = ["/Users/user/vacationPlanner/backgrounds/baalbeck.jpg" , "/Users/user/vacationPlanner/backgrounds/Harrisa.jpg" , "/Users/user/vacationPlanner/backgrounds/rawche.jpg" , "/Users/user/vacationPlanner/backgrounds/st paul.jpg"];
+var currentImage = 0;
+setInterval (changeImage, 3000)
+
+function changeImage(){
+    currentImage++;
+    if(currentImage > images.length - 1){
+        currentImage = 0;
+    }
+    document.body.style.backgroundImage = "url(" + images[currentImage] + ")";
 }
